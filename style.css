@@ -61,7 +61,7 @@ footer {
   height: 700px;
   background-color: #4B4E4D;
   margin: -10px;
-  paddings-bottom: -400px;
+  /*padding-bottom: -400px;*/
   bottom: 0;
 }
 
@@ -78,11 +78,11 @@ footer h2 {
 .fa {
   color: white;
   margin: 50px;
-  padding-top: -6000px;
+  /*padding-top: -6000px;*/
 }
 footer i:hover {
   transform: translateY(-5px);
-  transform: 2s;
+  transition-duration: 2s;
 }
 .contact-details:hover {
   transform: translateY(8px);
